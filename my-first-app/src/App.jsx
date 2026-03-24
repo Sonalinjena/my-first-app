@@ -5,8 +5,18 @@ import heroImg from './assets/hero.png'
 import './App.css'
 
 function App() {
-  return (
-    <h1>My AI Journey Begins</h1>
+  const  name="sonalin";
+  const fruits=["apple","banana","grapes"]
+  return (<>
+    <h1>Hello {name}</h1>
+    <ul>
+      {fruits.map((i)=>(
+        <li>{i}</li>
+      ))}
+    </ul>
+
+  </>
+  
   );
 }
 
